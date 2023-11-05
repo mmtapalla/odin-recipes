@@ -1,5 +1,9 @@
-# This is just a test repository to grease my groove in GitHub
+# My TOP Course Outputs
 
-It's been a long while since I've used GitHub. The last time I've used GitHub was during our thesis period at my university. The time where I learned how to develop programs for Raspberry Pi as well as tinkering and experimenting with TensorFlow Lite.
+This repository are my outputs on The Odin Project's course that I'm taking.
 
-Hello Odin!
+**Start Date:**
+`November 3, 2023`
+
+**End Date:**
+`TBA`
