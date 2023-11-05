@@ -1,9 +1,7 @@
 # odin-recipes
 
-## Date Started
+Date Started: **November 3, 2023**
 
-`November 3, 2023`
-
-## Date Performed
+Date Performed:
 
 - foundations-recipes: `November 5, 2023`
