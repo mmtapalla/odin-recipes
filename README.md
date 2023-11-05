@@ -1,7 +1,7 @@
 # odin-recipes
 
-Date Started: **November 3, 2023**
+Date Started: 2023-11-03
 
 Date Performed:
 
-- foundations-recipes: `November 5, 2023`
+- `foundations-recipes`: 2023-11-05
