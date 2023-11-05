@@ -1,9 +1,4 @@
-# My TOP Course Outputs
+# odin-recipes
 
-This repository are my outputs on The Odin Project's course that I'm taking.
-
-**Start Date:**
-`November 3, 2023`
-
-**End Date:**
-`TBA`
+**Date Performed:**
+`November 5, 2023`
