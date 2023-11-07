@@ -120,3 +120,106 @@ body {
         fill:var(--not-black)
     }
 }
+
+.recipe-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    width: 50vw;
+    margin: 25px auto;
+    overflow: hidden;
+}
+
+.recipe-header {
+    background-image: linear-gradient(rgb(38, 38, 38, .5), rgba(38, 38, 38, 0));
+    position: absolute;
+    padding: 25px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    &__back-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        top: 20px;
+        left: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: goldenrod;
+        transition: .1s ease-out;
+        cursor: pointer;
+    
+        &__arrow {
+            width: 30px;
+            height: 30px;
+            fill: white;
+            transition: .1s ease-out;
+        }
+    }
+
+    &__text {
+        font-family: "Gabarito", sans-serif;
+        text-transform: uppercase;
+        color: goldenrod;
+    }
+    
+    &__logo{
+        top: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    &__back-button:hover {
+        box-shadow: 0 0 10px var(--timberwolf);
+    }
+}
+
+.recipe-image {
+    width: 100%;
+}
+
+.recipe-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transform: translateY(-50px);
+    
+    &__card {
+        background-color: white;
+        border-radius: 25px;
+        padding: 25px;
+        box-shadow: 0 0 10px var(--timberwolf);
+        width: 40vw;
+        
+        &__name {
+            font-family: "Gabarito", sans-serif;
+            margin: 0 0 25px;
+            color: var(--not-gray);
+        }
+
+        &__desc{
+            margin: 0 0 25px;
+            color: var(--not-gray);
+        }
+
+        &__ingr {
+            margin: 0 0 25px;
+            font-size: 15px;
+            color: var(--not-gray);
+            padding: 0 0 0 25px;
+        }
+
+        &__step {
+            font-size: 15px;
+            color: var(--not-gray);
+            padding: 0 0 0 25px;
+        }
+    }
+}
