@@ -10,7 +10,9 @@
     --platinum: #e6e6e6;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -61,7 +63,7 @@ body {
             margin: 0 0 25px;
             height: 150px;
             overflow: hidden;
-            
+
             &__image {
                 grid-row-start: 1;
                 grid-row-end: 3;
@@ -79,7 +81,7 @@ body {
                 grid-template-rows: 1fr 1fr;
                 grid-template-columns: 1fr;
                 padding: 10px 10px 10px 15px;
-                
+
                 &__name {
                     display: flex;
                     align-items: center;
@@ -108,16 +110,16 @@ body {
 
     &__text {
         font-size: 12px;
-        color:var(--not-gray)
+        color: var(--not-gray)
     }
 
     &__icon {
-        fill:var(--not-gray);
+        fill: var(--not-gray);
         transition: fill .1s ease-in-out;
     }
 
     &__icon:hover {
-        fill:var(--not-black)
+        fill: var(--not-black)
     }
 }
 
@@ -135,12 +137,12 @@ body {
 .recipe-header {
     background-image: linear-gradient(rgb(38, 38, 38, .5), rgba(38, 38, 38, 0));
     position: absolute;
-    padding: 25px 0;
+    padding: 30px 30px;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
     &__back-button {
         display: flex;
@@ -154,7 +156,7 @@ body {
         background-color: goldenrod;
         transition: .1s ease-out;
         cursor: pointer;
-    
+
         &__arrow {
             width: 30px;
             height: 30px;
@@ -168,13 +170,14 @@ body {
         text-transform: uppercase;
         color: goldenrod;
     }
-    
-    &__logo{
+
+    &__logo {
         top: 20px;
         right: 20px;
         width: 50px;
         height: 50px;
     }
+
     &__back-button:hover {
         box-shadow: 0 0 10px var(--timberwolf);
     }
@@ -189,22 +192,22 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    transform: translateY(-50px);
-    
+    transform: translateY(-150px);
+
     &__card {
         background-color: white;
         border-radius: 25px;
         padding: 25px;
         box-shadow: 0 0 10px var(--timberwolf);
         width: 40vw;
-        
+
         &__name {
             font-family: "Gabarito", sans-serif;
             margin: 0 0 25px;
             color: var(--not-gray);
         }
 
-        &__desc{
+        &__desc {
             margin: 0 0 25px;
             color: var(--not-gray);
         }
@@ -216,10 +219,43 @@ body {
             padding: 0 0 0 25px;
         }
 
+        &__sect {
+            margin: 0 0 15px;
+            font-size: 20px;
+            font-weight: 1000;
+            color: var(--not-gray);
+        }
+
         &__step {
             font-size: 15px;
             color: var(--not-gray);
             padding: 0 0 0 25px;
         }
+
+        &__ingr li,
+        &__step li {
+            margin: 0 0 10px;
+        }
+    }
+}
+
+.recipe-footer {
+    padding: 0 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__text {
+        font-size: 12px;
+        color: var(--not-gray)
+    }
+
+    &__icon {
+        fill: var(--not-gray);
+        transition: fill .1s ease-in-out;
+    }
+
+    &__icon:hover {
+        fill: var(--not-black)
     }
 }
