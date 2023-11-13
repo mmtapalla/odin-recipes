@@ -1,14 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Gabarito:wght@400;500;600;700;800;900&display=swap");
-:root {
-  --dark-goldenrod: #a78347;
-  --earth-yellow: #e3b261;
-  --almond: #eed9c3;
-  --not-black: #252525;
-  --not-gray: #4b5563;
-  --timberwolf: #d4d4d4;
-  --platinum: #e6e6e6;
-}
-
 *,
 *::before,
 *::after {
@@ -18,7 +8,7 @@
 }
 
 body {
-  background-color: var(--platinum);
+  background-color: #e6e6e6;
   font-family: "Comfortaa", sans-serif;
 }
 
@@ -50,13 +40,13 @@ body {
 }
 .recipe__item__card {
   text-decoration: none;
-  color: var(--not-gray);
+  color: #4b5563;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 2fr;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 0 10px var(--timberwolf);
+  box-shadow: 0 0 10px #d4d4d4;
   transition: box-shadow 0.1s ease-in-out;
   margin: 0 0 25px;
   height: 150px;
@@ -67,7 +57,7 @@ body {
   grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 2;
-  background-color: var(--timberwolf);
+  background-color: #d4d4d4;
   width: 100%;
   height: 100%;
   aspect-ratio: 1/1;
@@ -92,7 +82,7 @@ body {
   font-size: 0.78rem;
 }
 .recipe__item__card:hover {
-  box-shadow: 0 0 10px var(--not-gray);
+  box-shadow: 0 0 10px #4b5563;
 }
 
 .footer {
@@ -102,14 +92,14 @@ body {
 }
 .footer__text {
   font-size: 12px;
-  color: var(--not-gray);
+  color: #4b5563;
 }
 .footer__icon {
-  fill: var(--not-gray);
+  fill: #4b5563;
   transition: fill 0.1s ease-in-out;
 }
 .footer__icon:hover {
-  fill: var(--not-black);
+  fill: #252525;
 }
 
 .recipe-container {
@@ -164,7 +154,7 @@ body {
   height: 50px;
 }
 .recipe-header__back-button:hover {
-  box-shadow: 0 0 10px var(--timberwolf);
+  box-shadow: 0 0 10px #d4d4d4;
 }
 
 .recipe-image {
@@ -182,33 +172,33 @@ body {
   background-color: white;
   border-radius: 25px;
   padding: 25px;
-  box-shadow: 0 0 10px var(--timberwolf);
+  box-shadow: 0 0 10px #d4d4d4;
   width: 40vw;
 }
 .recipe-info__card__name {
   font-family: "Gabarito", sans-serif;
   margin: 0 0 25px;
-  color: var(--not-gray);
+  color: #4b5563;
 }
 .recipe-info__card__desc {
   margin: 0 0 25px;
-  color: var(--not-gray);
+  color: #4b5563;
 }
 .recipe-info__card__ingr {
   margin: 0 0 25px;
   font-size: 15px;
-  color: var(--not-gray);
+  color: #4b5563;
   padding: 0 0 0 25px;
 }
 .recipe-info__card__sect {
   margin: 0 0 15px;
   font-size: 20px;
   font-weight: 1000;
-  color: var(--not-gray);
+  color: #4b5563;
 }
 .recipe-info__card__step {
   font-size: 15px;
-  color: var(--not-gray);
+  color: #4b5563;
   padding: 0 0 0 25px;
 }
 .recipe-info__card__ingr li, .recipe-info__card__step li {
@@ -223,12 +213,12 @@ body {
 }
 .recipe-footer__text {
   font-size: 12px;
-  color: var(--not-gray);
+  color: #4b5563;
 }
 .recipe-footer__icon {
-  fill: var(--not-gray);
+  fill: #4b5563;
   transition: fill 0.1s ease-in-out;
 }
 .recipe-footer__icon:hover {
-  fill: var(--not-black);
+  fill: #252525;
 }/*# sourceMappingURL=styles.css.map */
