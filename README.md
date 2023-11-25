@@ -1,7 +1,8 @@
-# odin-recipes
+# Project: Recipes
 
-Date Started: 2023-11-03
+-   **GitHub Page:** [TOP Recipes Page](https://mmtapalla.github.io/odin-recipes)
+-   **Date:** November 05, 2023
 
-Date Performed:
+## Overview
 
-- `foundations-recipes`: 2023-11-05
+This is a simple recipes page project that I've done as part of [The Odin Project's](https://www.theodinproject.com/) Foundations Course.
